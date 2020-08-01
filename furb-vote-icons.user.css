@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name         Furbooru Astra Icons
+@description  Ponifies the favorite/upvote/downvote buttons on images.
+@namespace    https://styles.cp3.es/furb-vote-icons
+@version      1.1.0
+@author       CyberPon3 (https://cyberpon3.net)
+@homepageURL  https://styles.cp3.es/furb-vote-icons
+@supportURL   https://cyberpon3.net
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("furbooru.org") {
+
+    .interaction--fave .fa, .interaction--upvote .fa, .interaction--downvote .fa, .interaction--comments .fa {
+        background-size: 100% 100%;
+        color: transparent;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+    }
+
+    .interaction--fave .fa {
+        background-image: url("https://styles.cp3.es/furb-vote-icons/favorite.min.svg");
+    }
+
+    .interaction--upvote .fa {
+        background-image: url("https://styles.cp3.es/furb-vote-icons/upvote.min.svg");
+    }
+
+    .interaction--downvote .fa {
+        background-image: url("https://styles.cp3.es/furb-vote-icons/downvote.min.svg");
+    }
+
+    .interaction--comments .fa {
+        background-image: url("https://styles.cp3.es/furb-vote-icons/comment.min.svg");
+    }
+
+}
