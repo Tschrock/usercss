@@ -1,0 +1,12 @@
+---
+---
+
+@import "minima";
+
+.home > h1:first-child {
+    display: none;
+}
+
+.post-content h1 {
+    font-size: 36px;
+}

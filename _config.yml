@@ -1,0 +1,25 @@
+# Site settings
+title: Cyber's User Styles
+email: cyber@code.horse
+description: A collection of UserCSS styles for websites.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://styles.cp3.es" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: CyberPon3
+
+# Build settings
+theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
