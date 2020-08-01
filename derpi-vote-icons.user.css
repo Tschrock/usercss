@@ -2,14 +2,14 @@
 @name         Derpibooru Pony Icons
 @description  Ponifies the favorite/upvote/downvote buttons.
 @namespace    styles.cp3.es/derpi-vote-icons
-@version      1.1.0
+@version      1.1.2
 @author       CyberPon3 (https://cyberpon3.net)
 @homepageURL  https://styles.cp3.es/derpi-vote-icons
 @supportURL   https://cyberpon3.net
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document domain("derpibooru.org"), domain("trixiebooru.org") {
+@-moz-document domain("derpibooru.org"), domain("trixiebooru.org"), domain("ponybooru.org"), domain("twibooru.org"), domain("ponerpics.org") {
 
     .interaction--fave .fa, .interaction--upvote .fa, .interaction--downvote .fa, .interaction--comments .fa {
         background-size: 100% 100%;
