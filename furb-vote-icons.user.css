@@ -14,8 +14,9 @@
     .interaction--fave .fa, .interaction--upvote .fa, .interaction--downvote .fa, .interaction--comments .fa {
         background-size: 100% 100%;
         color: transparent;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 24px;
+        margin: -3px -5px -1px -5px;
         vertical-align: middle;
     }
 
