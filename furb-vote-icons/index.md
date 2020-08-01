@@ -3,6 +3,8 @@ Furbooru Astra Icons
 
 Fur-ifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
 
+[![Preview](preview.png)](preview.png)
+
 ## Installation
 
 First, you will need to get a browser extension that supports UserCSS. I recommend [Stylus](https://github.com/openstyles/stylus):

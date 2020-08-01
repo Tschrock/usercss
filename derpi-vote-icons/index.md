@@ -3,7 +3,7 @@ Derpibooru Pony Icons
 
 Ponifies the favorite/upvote/downvote buttons on [Derpibooru](https://derpibooru.org) (and other Philomena-based pony sites).
 
-![Preview](preview.png)
+[![Preview](preview.png)](preview.png)
 
 ## Supported sites
  - Derpibooru
