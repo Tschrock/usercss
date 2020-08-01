@@ -1,3 +1,14 @@
+---
+description: Ponifies the favorite/upvote/downvote buttons on Derpibooru.
+author:
+    twitter: CyberPon3
+image:
+    path: share.png
+    height: 200
+    width: 200
+    type: image/png
+---
+
 Derpibooru Pony Icons
 =====================
 

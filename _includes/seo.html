@@ -1,0 +1,125 @@
+{% comment %} Open Graph Type {% endcomment %}
+
+<meta property="og:type" content="{{ page.type | default: "website" }}" />
+
+
+{% comment %} Site Author {% endcomment %}
+
+{% assign site_twitter = site.twitter.username | default: site.twitter_username | default: site.twitter  %}
+{% if site_twitter %}
+    <meta name="twitter:site" content="@{{ site_twitter | remove:'@' }}" />
+{% endif %}
+
+
+{% comment %} Page Author {% endcomment %}
+
+{% if page.author.twitter %}
+    {% capture author_twitter %}@{{ page.author.twitter | remove:'@' }}{% endcapture %}
+{% endif %}
+{% assign author = page.author.name | default: author_twitter | default: page.author %}
+{% if author %}
+    <meta name="author" content="{{ author }}" />
+{% endif %}
+{% if author_twitter %}
+    <meta name="twitter:creator" content="{{ author_twitter }}" />
+{% endif %}
+
+
+{% comment %} Site Title {% endcomment %}
+
+{% if site.title %}
+  <meta property="og:site_name" content="{{ site.title }}" />
+{% endif %}
+
+
+{% comment %} Page Title {% endcomment %}
+
+{% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+{% endif %}
+
+
+{% comment %} Tab Title {% endcomment %}
+
+{% capture title %}{{ page.title }}{% if page.title %}{% if site.title %} | {% endif %}{% endif %}{{ site.title }}{% endcapture %}
+{% if title != "" %}
+    <title>{{ title }}</title>
+{% endif %}
+
+
+{% comment %} Description {% endcomment %}
+
+{% assign description = page.description | default: site.description %}
+{% if description %}
+    <meta name="description" content="{{ description }}" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
+{% endif %}
+
+
+{% comment %} Image {% endcomment %}
+
+{% assign image_path = page.image.path | default: page.image %}
+{% if image_path %}
+    {% assign image_path_0 = image_path | slice: 0, 1 %}
+    {% if image_path_0 != "/" %}{% assign image_path = page.dir | append:image_path %}{% endif %}
+    {% assign image_path = image_path | absolute_url %}
+    <meta property="og:image" content="{{ image_path }}" />
+    <meta property="og:image:url" content="{{ image_path }}" />
+    <meta property="og:image:secure_url" content="{{ image_path }}" />
+    <meta name="twitter:image" content="{{ image_path }}" />
+    {% if page.image.type %}
+        <meta property="og:image:type" content="{{ page.image.type }}" />
+    {% endif %}
+    {% if page.image.height %}
+        <meta property="og:image:height" content="{{ page.image.height }}" />
+    {% endif %}
+    {% if page.image.width %}
+        <meta property="og:image:width" content="{{ page.image.width }}" />
+    {% endif %}
+    {% if page.image.alt %}
+        <meta property="og:image:alt" content="{{ page.image.alt }}" />
+        <meta name="twitter:image:alt" content="{{ page.image.alt }}" />
+    {% endif %}
+{% endif %}
+
+
+{% comment %} Canonical URL {% endcomment %}
+
+{% if site.url %}
+    {% assign canonical_url = page.canonical_url | default: page.url | absolute_url %}
+    <link rel="canonical" href="{{ canonical_url }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
+{% endif %}
+
+
+{% comment %} Date {% endcomment %}
+{% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% endif %}
+
+
+{% comment %} Theme Color {% endcomment %}
+
+{% assign theme_color = page.theme_color | default: site.theme_color %}
+{% if theme_color %}
+    <meta name="theme-color" content="{{ theme_color }}">
+{% endif %}
+
+{% comment %} Twitter Card Type {% endcomment %}
+
+<meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "summary" }}" />
+
+
+{% comment %} Facebook App ID {% endcomment %}
+
+{% assign app_id = page.facebook.app_id | default: site.facebook.app_id %}
+{% if app_id %}
+    <meta property="fb:app_id" content="{{ app_id }}" />
+{% endif %}
+
+
+{% comment %} Generator {% endcomment %}
+
+<meta name="generator" content="Jekyll v{{ jekyll.version }}" />

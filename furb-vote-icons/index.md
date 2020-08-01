@@ -1,3 +1,14 @@
+---
+description: Fur-ifies the favorite/upvote/downvote buttons on Furbooru.
+author:
+    twitter: CyberPon3
+image:
+    path: share.png
+    height: 200
+    width: 200
+    type: image/png
+---
+
 Furbooru Astra Icons
 =====================
 
