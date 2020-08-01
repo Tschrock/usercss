@@ -1,5 +1,5 @@
 ---
-description: Fur-ifies the favorite/upvote/downvote buttons on Furbooru.
+description: Furrifies the favorite/upvote/downvote buttons on Furbooru.
 author:
     twitter: CyberPon3
 image:
@@ -9,10 +9,10 @@ image:
     type: image/png
 ---
 
-Furbooru Astra Icons
-=====================
+Astra Vote Icons
+================
 
-Fur-ifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
+Furrifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
 
 [![Preview](preview.png)](preview.png)
 

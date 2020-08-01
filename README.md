@@ -5,6 +5,6 @@
 Ponifies the favorite/upvote/downvote buttons on [Derpibooru](https://derpibooru.org) (and other Philomena-based pony sites).
 
 
-## [Furbooru Astra Icons](furb-vote-icons)
+## [Astra Vote Icons](furb-vote-icons)
 
-Fur-ifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
+Furrifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
