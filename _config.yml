@@ -8,8 +8,12 @@ twitter_username: CyberPon3
 
 # Build settings
 theme: minima
+
 # plugins:
 #   - jekyll-feed
+
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Exclude from processing.
 # exclude:
