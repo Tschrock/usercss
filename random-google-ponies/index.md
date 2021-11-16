@@ -22,10 +22,21 @@ Current logos thanks to ssumppg, ThePatrollPL, ViperDash, and Owl-Parchment
 
 ## Installation
 
-First, you will need to get a browser extension that supports UserCSS. I recommend [Stylus](https://github.com/openstyles/stylus):
-- [Stylus for Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-- [Stylus for Firefox](https://addons.mozilla.org/firefox/addon/styl-us/)
-- [Stylus for Opera](https://addons.opera.com/extensions/details/stylus/)
-- Stylus for Edge - use the Google Chrome version above
+1. You will need to get a browser extension that supports UserCSS. I recommend [Stylus](https://github.com/openstyles/stylus):
+    - [Stylus for Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+    - [Stylus for Firefox](https://addons.mozilla.org/firefox/addon/styl-us/)
+    - [Stylus for Opera](https://addons.opera.com/extensions/details/stylus/)
+    - Stylus for Edge - use the Google Chrome version above
 
-Then just [click here to install the style](https://styles.cp3.es/random-google-ponies.user.css)
+2. Then just [click here to install the style](https://styles.cp3.es/random-google-ponies.user.css)
+
+## Changelog
+
+### Nov. 16, 2021
+- Re-wrote the styling to fix issues with Google Doodles.
+- Ditched userstyles.org and moved the source code to my self-hosted styles site.
+- Set up replication to userstyles.world
+
+### Oct. 5, 2018
+- Completely re-wrote the styling because it wasn’t working on some search results pages and things were a bit messy.
+- Changed to self-hosted images to speed up image loading
