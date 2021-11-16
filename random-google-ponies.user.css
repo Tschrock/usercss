@@ -1,0 +1,109 @@
+/* ==UserStyle==
+@name         Random Google Ponies
+@description  Replaces the Google logo with a random pony themed version.
+@namespace    https://styles.cp3.es/random-google-ponies
+@version      1.0.1
+@author       CyberPon3 (https://cyberpon3.net)
+@homepageURL  https://styles.cp3.es/random-google-ponies
+@supportURL   https://cyberpon3.net
+@license      MIT
+@preprocessor   uso
+@advanced dropdown time "Time between logo changes:" {
+	None "None*" <<<EOT 0 EOT;
+min "15 Min." <<<EOT 900 EOT;
+hr "1 Hr." <<<EOT 3600 EOT;
+day "1 Day" <<<EOT 86400 EOT;
+
+}
+==/UserStyle== */
+
+@-moz-document domain("google.co.uk"), domain("google.com.ng"), domain("google.as"), domain("google.ca"), domain("google.es"), domain("google.de"), domain("google.com.au"), domain("google.fr"), domain("google.it"), domain("google.co.jp"), domain("google.ru"), domain("google.com.ar"), domain("google.com.sg"), domain("google.co.cr"), domain("google.com.tw"), domain("google.com.tr"), domain("google.at"), domain("google.ba"), domain("google.com.br"), domain("google.bs"), domain("google.ch"), domain("google.cz"), domain("google.dk"), domain("google.com.eg"), domain("google.fi"), domain("google.com.hk"), domain("google.hr"), domain("google.gr"), domain("google.ie"), domain("google.co.id"), domain("google.co.in"), domain("google.co.il"), domain("google.co.kr"), domain("google.com.lb"), domain("google.com.mx"), domain("google.nl"), domain("google.no"), domain("google.co.nz"), domain("google.com.ph"), domain("google.pt"), domain("google.se"), domain("google.so"), domain("google.co.th"), domain("google.com.ua"), domain("google.co.ve"), domain("google.com.vn"), domain("google.com.gt"), domain("google.com.ec"), domain("google.be"), domain("google.cn"), domain("google.com.cu"), domain("google.pl"), domain("google.sk"), domain("google.cl"), domain("google.com"), domain("google.kz"), domain("google.si"), domain("google.ae") {
+
+    /**
+     * Randomized Google Pony Logos
+     * 
+     * Stylesheet and randomization service by CyberPon3
+     * Art by ssumppg, ThePatrollPL, ViperDash, and Owl-Parchment
+     *
+     * https://googleponies.cyberpon3.net
+     */
+    
+    
+    /**
+     * Large logo on google homepage
+     */
+    
+    /* Replace the original logo if it isn't a daily doodle. */
+    #hplogo[alt^=Google],
+    .lnXdpd[alt^=Google] {
+        content: url('https://googleponies.cyberpon3.net/randomizer.php?version=0.2&redirect=0&ehost=0&time=/*[[time]]*/&pics=ALL');
+        height: 184px;
+    }
+        
+    /* Fix the sizing. */
+    .rSk4se {
+        max-height: 184px;
+    }
+    
+    
+    /**
+     * Small logo on search results page
+     */
+    
+    /* Replace the original logo. */
+    #logo img {
+        content: url('https://googleponies.cyberpon3.net/randomizer.php?version=0.2&redirect=0&ehost=0&time=/*[[time]]*/&pics=ALL');
+        margin: -12px -12px;
+        height: auto;
+        width: 138px;
+    }
+    
+    /* Allow overflow. */
+    .logocont #logo,
+    .logo #logo {
+        overflow: visible;
+    }
+    
+    
+    /**
+     * Small logos on a lot of google sub-pages (translate, finance, podcasts, etc)
+     */
+    
+    .gb_pc .gb_be {
+        height: 48px;
+        width: 148px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+        
+    .gb_pc .gb_be:before {
+        height: 48px;
+        width: 148px;
+        content: ' ';
+        background-repeat: no-repeat;
+        background-image: url('https://googleponies.cyberpon3.net/randomizer.php?version=0.2&redirect=0&ehost=0&time=/*[[time]]*/&pics=ALL');
+        background-size: contain;
+        background-position: center center;
+    }
+    
+    
+    /**
+     * Large logo on google books homepage
+     */
+    #oc-search-image-box {
+        padding-top: 20px;
+    }
+    #oc-search-image {
+        height: 200px;
+        width: 500px;
+        background-image: url('https://googleponies.cyberpon3.net/randomizer.php?version=0.2&redirect=0&ehost=0&time=/*[[time]]*/&pics=4,5,9,10,11,12,13,14,15,16,17,18,19,20,21,23,33,45,42,47') !important;
+        background-size: contain;
+        background-position: center center;
+    }
+    #oc-search-logo {
+        left: 155px;
+        top: 150px;
+        font-size: 20px;
+    }
+    
+}

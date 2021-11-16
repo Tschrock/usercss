@@ -1,20 +1,24 @@
 ---
-description: Furrifies the favorite/upvote/downvote buttons on Furbooru.
+description: Replaces the Google logo with a random pony themed version.
 author:
     twitter: CyberPon3
 image:
-    path: share.png
-    height: 200
-    width: 200
+    path: preview.png
+    height: 1280
+    width: 720
     type: image/png
 ---
 
-Astra Vote Icons
+Random Google Ponies
 ================
 
 [![Preview](preview.png)](preview.png)
 
-Furrifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
+A Google theme that replaces the Google logo with a random MLP (My Little Pony) themed version.
+
+You can find the gallery of all the logos used at [googleponies.cyberpon3.net](https://googleponies.cyberpon3.net/) as well as generating a style from a customized list of logos.
+
+Current logos thanks to  ssumppg, ThePatrollPL, ViperDash, and Owl-Parchment
 
 ## Installation
 

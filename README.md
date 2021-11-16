@@ -8,3 +8,7 @@ Ponifies the favorite/upvote/downvote buttons on [Derpibooru](https://derpibooru
 ## [Astra Vote Icons](furb-vote-icons)
 
 Furrifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
+
+## [Random Google Ponies](random-google-ponies)
+
+Replaces the Google logo with a random pony themed version.
