@@ -9,6 +9,12 @@ Ponifies the favorite/upvote/downvote buttons on [Derpibooru](https://derpibooru
 
 Furrifies the favorite/upvote/downvote buttons on [Furbooru](https://furbooru.org/).
 
+
 ## [Random Google Ponies](random-google-ponies)
 
 Replaces the Google logo with a random pony themed version.
+
+
+## [Verizon Web Messages - Real Full-page Mode](verizon-messages-fullscreen)
+
+Fixes the 'Full Page Mode' in the Verizon Messages Web App.
