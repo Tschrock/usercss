@@ -22,13 +22,17 @@ Current logos thanks to ssumppg, ThePatrollPL, ViperDash, and Owl-Parchment
 
 ## Installation
 
-1. You will need to get a browser extension that supports UserCSS. I recommend [Stylus](https://github.com/openstyles/stylus):
-    - [Stylus for Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-    - [Stylus for Firefox](https://addons.mozilla.org/firefox/addon/styl-us/)
-    - [Stylus for Opera](https://addons.opera.com/extensions/details/stylus/)
-    - Stylus for Edge - use the Google Chrome version above
+1. Install a browser extension that supports UserCSS. I recommend [Stylus](https://github.com/openstyles/stylus) (NOT Stylish).
 
-2. Then just [click here to install the style](https://styles.cp3.es/random-google-ponies.user.css)
+   [![Get Stylus](../assets/install-stylus.svg)](https://github.com/openstyles/stylus/#releases)
+
+2. Click here to open the style in the extension:
+
+    [![Get Style](../assets/install-style.svg)](https://styles.cp3.es/random-google-ponies.user.css)
+
+    And then click "Install Style" inside the extension (you can also adjust some of the style's settings before installing)
+
+    ![Install Style](./install.png)
 
 ## Changelog
 
