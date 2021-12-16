@@ -32,6 +32,9 @@ Current logos thanks to ssumppg, ThePatrollPL, ViperDash, and Owl-Parchment
 
 ## Changelog
 
+### Dec. 15, 2021
+- Added a toggle option for overriding Google Doodles. Note, this might not always work! Some doodles, especially the interactive ones, make a lot of unique changes to the homepage, and overriding them is not easy.
+
 ### Nov. 16, 2021
 - Re-wrote the styling to fix issues with Google Doodles.
 - Ditched userstyles.org and moved the source code to my self-hosted styles site.

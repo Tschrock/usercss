@@ -9,11 +9,14 @@
 @license      MIT
 @preprocessor   uso
 @advanced dropdown time "Time between logo changes:" {
-	None "None*" <<<EOT 0 EOT;
-min "15 Min." <<<EOT 900 EOT;
-hr "1 Hr." <<<EOT 3600 EOT;
-day "1 Day" <<<EOT 86400 EOT;
-
+    None "None*" <<<EOT 0 EOT;
+    min "15 Min." <<<EOT 900 EOT;
+    hr "1 Hr." <<<EOT 3600 EOT;
+    day "1 Day" <<<EOT 86400 EOT;
+}
+@advanced dropdown overrideDoodle "Override Special Doodles" {
+    yes "Yes" <<<EOT EOT;
+    no "No" <<<EOT[alt^=Google]EOT;
 }
 ==/UserStyle== */
 
@@ -34,8 +37,8 @@ day "1 Day" <<<EOT 86400 EOT;
      */
     
     /* Replace the original logo if it isn't a daily doodle. */
-    #hplogo[alt^=Google],
-    .lnXdpd[alt^=Google] {
+    #hplogo/*[[overrideDoodle]]*/,
+    .lnXdpd/*[[overrideDoodle]]*/ {
         content: url('https://googleponies.cyberpon3.net/randomizer.php?version=0.2&redirect=0&ehost=0&time=/*[[time]]*/&pics=ALL');
         height: 184px;
     }
